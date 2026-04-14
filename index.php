@@ -580,6 +580,9 @@
       transition: all 0.3s;
       position: relative;
       overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+display: block;
     }
 
     /*
@@ -948,9 +951,9 @@
     <div class="logo">Budget<span>Pro</span></div>
 
     <ul>
-      <li><a href="#">How It Works</a></li>
-      <li><a href="#">Find an Advisor</a></li>
-      <li><a href="#">Resources</a></li>
+      <li><a href="how.php">How It Works</a></li>
+      <li><a href="advisor.php">Find an Advisor</a></li>
+      <li><a href="resources.php">Resources</a></li>
       <!-- nav-cta class turns this link into a filled pill button -->
       <li><a href="login.php" class="nav-cta">Get Started</a></li>
       <li><a href="register.php">Register</a><li>
@@ -1119,12 +1122,12 @@
       <!-- 3-column grid of steps (CSS handles the 3-col layout) -->
       <div class="steps-grid">
 
-        <div class="step-card">
+        <a href="profile.php" class="step-card">
           <div class="step-num">01</div>
           <div class="step-icon">📋</div>
           <h3 class="step-h">Complete Your Profile</h3>
           <p class="step-p">Answer a short questionnaire about your income, debt, goals, and challenges. Our algorithm uses this to shortlist your ideal advisors instantly.</p>
-        </div>
+</a>
 
         <div class="step-card">
           <div class="step-num">02</div>
